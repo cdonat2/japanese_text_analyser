@@ -2,7 +2,7 @@
 echo 'pull'
 git pull
 echo 'install requirements'
-sudo pip3 install -r requirements.txt
+pip3 install -r requirements.txt
 echo 'makemigrations'
 python3 manage.py makemigrations
 echo 'migrate'
