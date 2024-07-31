@@ -16,6 +16,6 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-LABEL maintainer="Ryuichi Miyazaki <rmiyazaki11@ucsbalum.com>"
+LABEL maintainer="Christian Donat <c.donat.de@gmail.com>"
 
 CMD ./scripts/start.sh 

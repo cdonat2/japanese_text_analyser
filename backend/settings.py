@@ -20,6 +20,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    "analyser.apps.AnalyserConfig",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

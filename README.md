@@ -29,7 +29,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-A japanese text analyzer.
+A Japanese Text Analyser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -43,23 +43,25 @@ A japanese text analyzer.
 ## Getting Started
 To get a local copy up and running follow these steps.
 
+### Requirements
+* Python 3.10 [Python](https://www.python.org/downloads/release/python-3100/)
+* Docker Desktop [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
 ### Installation
-* Project
+1. Clone the Project
   ```sh
   git clone https://github.com/cdonat2/japanese_text_analyser
   ```
-* Python 3.10+
+2. Setup Manually
   ```sh
   pip install -r requirements.txt
   sudo apt install build-essential
   sudo apt-get install libboost-all-dev
-  ```
-* Requirements
-  ```sh
   python3 manage.py makemigrations
   python3 manage.py migrate
   python3 manage.py collectstatic
   ```
+3. Alternatively, use Docker
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,12 +69,19 @@ To get a local copy up and running follow these steps.
 ## Usage
 
 1. Run project
+* Using `.env` File
   ```sh
   python manage.py runserver
   ```
-2. Run project in production
+* Using `.env-prod` File
   ```sh
   ENV_PATH=.env-prod python3 manage.py runserver
+  ```
+* Using Docker
+  ```sh
+  docker compose up --build
+  docker compose down
+  docker system prune -fa
   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -97,7 +106,7 @@ Project Link: [https://github.com/cdonat2/japanese-text-analyzer](https://github
 ## Acknowledgments
 
 * [Best Readme Template](https://github.com/othneildrew/Best-README-Template/tree/master)
-* [Django Template](https://github.com/rmiyazaki6499/django-app.git)
+* [Django App Template](https://github.com/rmiyazaki6499/django-app.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

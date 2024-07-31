@@ -4,3 +4,6 @@ django-debug-toolbar
 django-environ
 pytz
 sqlparse
+python-dotenv
+environ
+psycopg2-binary

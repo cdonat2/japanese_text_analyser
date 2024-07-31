@@ -2,6 +2,7 @@
 env/
 backend/.env
 backend/.env-prod
+backend/.env-dev
 
 # Database
 db.sqlite3
@@ -33,3 +34,5 @@ backend/ssh/*
 
 # Github
 backend/secrets
+
+SOURCES.md
