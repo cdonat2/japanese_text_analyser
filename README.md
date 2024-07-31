@@ -105,8 +105,8 @@ Project Link: [https://github.com/cdonat2/japanese-text-analyzer](https://github
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Best Readme Template](https://github.com/othneildrew/Best-README-Template/tree/master)
-* [Django App Template](https://github.com/rmiyazaki6499/django-app.git)
+* Readme Template [Best Readme Template](https://github.com/othneildrew/Best-README-Template/tree/master)
+* Django App Template [Django App Template](https://github.com/rmiyazaki6499/django-app.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
